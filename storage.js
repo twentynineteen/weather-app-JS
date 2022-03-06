@@ -26,5 +26,6 @@ class Storage {
   setLocationData(city, country) {
     localStorage.setItem("city", city);
     localStorage.setItem("country", country);
+    
   }
 }
